@@ -3,7 +3,28 @@
     background-color: #2628a3;
     overflow: hidden;
   }
+/*Header */
+.header {
+  display:inline-block;
+  height:100px;
+  width: 100%;
+  background-image: url("https://i.redd.it/svjpk6v69qv41.jpg");
+  text-align: left;
   
+}
+/*Grid Container*/
+  .grid-container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+  }
+  .grid-item{
+    display:flex;
+    border-radius: 25px;
+    padding: 15;
+    justify-items: center;
+    border:15;
+  }
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
